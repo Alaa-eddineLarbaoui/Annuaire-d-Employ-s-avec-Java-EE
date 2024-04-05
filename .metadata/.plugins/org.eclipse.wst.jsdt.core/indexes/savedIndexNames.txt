@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\user\eclipse-workspace\Annuaire-d-Employ-s-avec-Java-EE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1980528044.index
-2618501682.index
-2370066067.index
-990239992.index
-2742693852.index
-3627581756.index
