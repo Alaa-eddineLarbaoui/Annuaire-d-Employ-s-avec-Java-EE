@@ -11,3 +11,6 @@
 127.0.0.1 - - [05/Apr/2024:13:52:55 +0000] "GET / HTTP/1.1" 404 682
 0:0:0:0:0:0:0:1 - - [05/Apr/2024:13:52:55 +0000] "GET /Gestion-Employes/ HTTP/1.1" 404 703
 0:0:0:0:0:0:0:1 - - [05/Apr/2024:13:53:01 +0000] "GET /Gestion-Employes/Affiche HTTP/1.1" 200 28
+127.0.0.1 - - [05/Apr/2024:14:18:58 +0000] "GET / HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [05/Apr/2024:14:19:00 +0000] "GET /Gestion-Employes/Affiche.jsp HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [05/Apr/2024:14:19:02 +0000] "GET /Gestion-Employes/Affiche.jsp HTTP/1.1" 200 138
