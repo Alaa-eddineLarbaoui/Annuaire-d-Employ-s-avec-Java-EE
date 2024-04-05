@@ -6,8 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\user\eclipse-workspace\Annuaire-d-Employ-s-avec-Java-EE"/>
 			<item value="C:\Users\user\eclipse-workspace"/>
-			<item value="C:\Users\user\Desktop\Annuaire-d-Employ-s-avec-Java-EE"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="479"/>
