@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des Employés</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
@@ -25,7 +24,7 @@
                 </tr>
             </thead>
             <tbody>
-                <c:forEach var="employee" items="${listEmp}">
+             <c:forEach var="employee" items="${listEmp}">
                     <tr>
                        <td>${employee.getId()}</td>
                         <td>${employee.getNom()}</td>
@@ -49,6 +48,6 @@
   
 
    
-    <script></script>
+   
 </body>
 </html>
