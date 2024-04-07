@@ -5,7 +5,7 @@
     <servlet-class>com.octest.servlets.Acceuil</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Acceuil</servlet-name>
+    <servlet-name>Accueil</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
   
