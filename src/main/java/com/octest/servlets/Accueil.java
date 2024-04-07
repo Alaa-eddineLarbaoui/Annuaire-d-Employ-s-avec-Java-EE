@@ -1,29 +1,30 @@
 package com.octest.servlets;
 
 import java.io.IOException;
-import javax.servlet.ServletException;
+
+import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 
 
-@WebServlet("/Accueil")
-public class Accueil extends HttpServlet {
+/**
+ * Servlet implementation class Acceuil
+ */
+@WebServlet("/Acceuil")
+public class Acceuil extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-   
-    public Accueil() {
+
+    public Acceuil() {
         super();
         // TODO Auto-generated constructor stub
     }
 
-	
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher("/WEB-INF/Accueil.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/Acceuil.jsp").forward(request, response);
 	}
 
-	
+	 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
