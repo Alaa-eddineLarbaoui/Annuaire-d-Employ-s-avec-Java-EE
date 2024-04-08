@@ -13,23 +13,31 @@ import javax.servlet.http.HttpSession;
 
 import com.octest.beans.Employee;
 
-
+/**
+ * Servlet implementation class Affiche
+ */
 @WebServlet("/Affiche")
 public class Affiche extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-   
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
     public Affiche() {
         super();
         // TODO Auto-generated constructor stub
     }
 
-	
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		this.getServletContext().getRequestDispatcher("/WEB-INF/Affiche.jsp").forward(request, response);
 	}
 
-
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	public static ArrayList<Employee> listEmp = new ArrayList<>();
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		 
@@ -43,8 +51,8 @@ public class Affiche extends HttpServlet {
 		  else {
 			    String Nom = request.getParameter("Nom");
 			    String Email = request.getParameter("Email");
-			    String Numéro = request.getParameter("Numéro");
-			    String Département = request.getParameter("Département");
+			    String Numéro = request.getParameter("Numero");
+			    String Département = request.getParameter("Departement");
 			    String Poste = request.getParameter("Poste");
 			    
 			    Employee emp = new Employee(Id,Nom, Email, Numéro, Département, Poste);

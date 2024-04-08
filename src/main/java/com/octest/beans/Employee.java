@@ -3,7 +3,6 @@ package com.octest.beans;
 
 public class Employee {
 	private String Id;
-	
 	private String Nom;
 	private String Email;
 	private String Numéro;

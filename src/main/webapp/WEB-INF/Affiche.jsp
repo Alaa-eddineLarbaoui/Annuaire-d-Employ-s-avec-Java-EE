@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des Employés</title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
@@ -27,14 +28,14 @@
              <c:forEach var="employee" items="${listEmp}">
                     <tr>
                        <td>${employee.getId()}</td>
-                        <td>${employee.getNom()}</td>
-                        <td>${employee.getEmail()}</td>
-                        <td>${employee.getNuméro()}</td>
-                        <td>${employee.getDépartement()}</td>
-                        <td>${employee.getPoste()}</td>
+                       <td>${employee.getNom()}</td>
+                       <td>${employee.getEmail()}</td>
+                       <td>${employee.getNuméro()}</td>
+                       <td>${employee.getDépartement()}</td>
+                       <td>${employee.getPoste()}</td>
                         <td>
-                            <a href="/Gestion_Employee/Modifier?Id=${employee.getId()}" class="btn btn-primary btn-sm">Modifier</a>
-                            <a href="/Gestion_Employee/Supprimer?Id=${employee.getId()}" class="btn btn-danger btn-sm">Supprimer</a>
+                            <a href="/Gestion-Employes/Modifier?Id=${employee.getId()}" class="btn btn-primary btn-sm">Modifier</a>
+                            <a href="/Gestion-Employes/Supprimer?Id=${employee.getId()}" class="btn btn-danger btn-sm">Supprimer</a>
                         </td>
                     </tr>
                 </c:forEach>
@@ -42,9 +43,10 @@
         </table>
         
       
-        <a href="/Gestion_Employee/" class="btn btn-success">Ajouter Employé</a>
+        <a href="/Gestion-Employes/" class="btn btn-success">Ajouter Employé</a>
     </div>
-
+   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
 
    
